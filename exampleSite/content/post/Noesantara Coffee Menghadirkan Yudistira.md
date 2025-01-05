@@ -1,7 +1,7 @@
 ---
 title: "Noesantara Coffee Menghadirkan Yudistira Decaf"
 date: 2018-12-26T12:30:01+06:00
-image: images/blog/blog-img-5.jpg
+image: images/blog/blog-img-5.png
 description: "this is meta description"
 type: "post"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Mencicipi Sejarah, Menikmati Kehangatan"
 date: 2025-01-04T12:23:10+06:00
-image: images/blog/blog-img-3.jpg
+image: images/blog/blog-img-3.png
 description: "this is meta description"
 type: "post"
 ---
