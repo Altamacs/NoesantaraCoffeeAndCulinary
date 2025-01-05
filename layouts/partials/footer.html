@@ -12,7 +12,7 @@
 								<h4><i class="{{.icon}}"></i>{{ .title }}</h4>
 								<p>{{ .content | markdownify }}</p>
 							</li>
-							{{end}}
+							{{ end }}
 						</ul>
 					</div>
 				</div>
@@ -20,31 +20,20 @@
 			<!-- .col-md-4 close -->
 			<div class="col-md-4">
 				<div class="block wow fadeInLeft" data-wow-delay="700ms">
-					<h3>{{ with site.Params.footer.blogTitle }} {{ . | safeHTML }} {{ end }}</h3>
-					<div class="blog">
-						<ul>
-							{{ range first 3 (where site.Pages "Type" "post") }}
-							{{ "<!-- post -->" | safeHTML }}
-							<li>
-								<h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
-								<p>{{ .PublishDate.Format "02 Jan 2006" }}</p>
-							</li>
-							{{ end }}
-						</ul>
+					<h3>{{ with site.Params.footer.mapTitle }} {{ . | safeHTML }} {{ end }}</h3>
+					<div class="map">
+						<p>Find us on Google Maps:</p>
+						<a href="https://maps.app.goo.gl/J9NCebpsCzNyiayE6" target="_blank" class="btn btn-primary">View Map</a>
 					</div>
 				</div>
 			</div>
 			<!-- .col-md-4 close -->
 			<div class="col-md-4">
 				<div class="block wow fadeInLeft" data-wow-delay="1100ms">
-					<div class="gallary">
-						<h3>{{ with site.Params.footer.galleryTitle }} {{ . | safeHTML }} {{ end }}</h3>
-						<ul class="gallery">
-							{{ range site.Params.footer.gallery }}
-							<li><a href="{{ .image | absURL }}" class="venobox" data-gall="footerGallery"><img class="img-responsive"
-										src="{{ .image | absURL }}" alt=""></a></li>
-							{{ end }}
-						</ul>
+					<div class="map">
+						<h3>{{ with site.Params.footer.mapTitle }} {{ . | safeHTML }} {{ end }}</h3>
+						<p>Explore our location:</p>
+						<a href="https://maps.app.goo.gl/J9NCebpsCzNyiayE6" target="_blank" class="btn btn-primary">View on Google Maps</a>
 					</div>
 					<div class="social-media-link">
 						<h3>{{ with site.Params.footer.socialTitle }} {{ . | safeHTML }} {{ end }}</h3>
@@ -58,7 +47,7 @@
 			</div>
 			<!-- .col-md-4 close -->
 		</div><!-- .row close -->
-	</div><!-- .containe close -->
+	</div><!-- .container close -->
 </section><!-- #footer close -->
 {{ end }}
 
