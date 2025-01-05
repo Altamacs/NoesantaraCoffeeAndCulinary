@@ -132,13 +132,6 @@ image = "images/slider/slider-img-2.jpg"
 icon = "facebook"
 link = "https://www.facebook.com/Noesantara.jkt/"
 
-[[params.footer.socialLink]]
-icon = "whatsapp"
-link = "wa.me/+6281381459198"
-
-[[params.footer.socialLink]]
-icon = "tiktok"
-link = "https://fb.com/themefisher"
 
 [[params.footer.socialLink]]
 icon = "instagram"
