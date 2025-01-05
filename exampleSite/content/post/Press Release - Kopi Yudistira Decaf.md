@@ -1,7 +1,6 @@
 ---
 title: "Kopi Yudistira Decaf Produk Baru Noesantara Coffee and Culinary"
 date: 2024-12-29T04:28:21+06:00
-image: images/blog/blog-img-1.png
 description: "this is meta description"
 type: "post"
 ---
