@@ -61,14 +61,9 @@ URL = "price"
 weight = 4
 
 [[menu.main]]
-name = "News"
-URL = "subscribe"
-weight = 5
-
-[[menu.main]]
 name = "Contact Us"
 URL = "contact-us"
-weight = 6
+weight = 5
 
 
 #################### default parameters ################################
@@ -101,12 +96,12 @@ socialTitle = "Follow <span>US</span>"
 [[params.footer.contactItem]]
 title = "Telephone"
 icon = "fa fa-phone"
-content = "016742 323313"
+content = " 0813-8145-9198"
 
 [[params.footer.contactItem]]
 title = "Address"
 icon = "fa fa-map-marker"
-content = "2046 Blue Spruce Lane Laurel Canada"
+content = "Jalan Tawes No.21, Rawamangun, Kec. Pulo Gadung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13220"
 
 [[params.footer.contactItem]]
 title = "E mail"
@@ -135,16 +130,16 @@ image = "images/slider/slider-img-2.jpg"
 ######################## Social Icon 
 [[params.footer.socialLink]]
 icon = "facebook"
-link = "https://fb.com/themefisher"
+link = "https://www.facebook.com/Noesantara.jkt/"
 
 [[params.footer.socialLink]]
-icon = "twitter"
-link = "https://fb.com/themefisher"
+icon = "whatsapp"
+link = "wa.me/+6281381459198"
 
 [[params.footer.socialLink]]
-icon = "dribbble"
+icon = "tiktok"
 link = "https://fb.com/themefisher"
 
 [[params.footer.socialLink]]
 icon = "instagram"
-link = "https://fb.com/themefisher"
+link = "https://www.instagram.com/noesantara.jkt/"
