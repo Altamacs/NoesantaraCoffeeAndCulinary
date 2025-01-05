@@ -136,3 +136,7 @@ link = "https://www.facebook.com/Noesantara.jkt/"
 [[params.footer.socialLink]]
 icon = "instagram"
 link = "https://www.instagram.com/noesantara.jkt/"
+
+[[params.footer.socialLink]]
+icon = "tiktok"
+link = "https://www.tiktok.com/@noesantara.jkt"
